@@ -1,0 +1,56 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "fingpt-fineval",
+  "dataset_size": 559507,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/FinGPT/fingpt-fineval@d1020610473e9b227f367fc362daf705c3f7e8c0/data/train-00000-of-00001-1fa04e2cd84728f4.parquet": {
+      "num_bytes": 208684,
+      "checksum": null
+    },
+    "hf://datasets/FinGPT/fingpt-fineval@d1020610473e9b227f367fc362daf705c3f7e8c0/data/test-00000-of-00001-9f770202d9b0d054.parquet": {
+      "num_bytes": 60509,
+      "checksum": null
+    }
+  },
+  "download_size": 269193,
+  "features": {
+    "input": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "output": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "instruction": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 828700,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 441991,
+      "num_examples": 1056,
+      "dataset_name": "fingpt-fineval"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 117516,
+      "num_examples": 265,
+      "dataset_name": "fingpt-fineval"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "fingpt-finred-cls",
+  "dataset_size": 27891456,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/FinGPT/fingpt-finred-cls@30231b971806109fa44030c44ecde0a1ede7482a/data/train-00000-of-00001-cae87f8e074b4b5d.parquet": {
+      "num_bytes": 2431993,
+      "checksum": null
+    },
+    "hf://datasets/FinGPT/fingpt-finred-cls@30231b971806109fa44030c44ecde0a1ede7482a/data/test-00000-of-00001-907283975ba983af.parquet": {
+      "num_bytes": 465830,
+      "checksum": null
+    }
+  },
+  "download_size": 2897823,
+  "features": {
+    "input": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "output": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "instruction": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 30789279,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 23991756,
+      "num_examples": 48474,
+      "dataset_name": "fingpt-finred-cls"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 3899700,
+      "num_examples": 8928,
+      "dataset_name": "fingpt-finred-cls"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

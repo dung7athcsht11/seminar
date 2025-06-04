@@ -1,0 +1,56 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "fingpt-headline",
+  "dataset_size": 16683345,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/FinGPT/fingpt-headline@96e7f0d361237bf5f9c5127e4006cffbab6b70ed/data/train-00000-of-00001-b8e635bd2f11110b.parquet": {
+      "num_bytes": 516947,
+      "checksum": null
+    },
+    "hf://datasets/FinGPT/fingpt-headline@96e7f0d361237bf5f9c5127e4006cffbab6b70ed/data/test-00000-of-00001-cf9eaceb716e8f40.parquet": {
+      "num_bytes": 130430,
+      "checksum": null
+    }
+  },
+  "download_size": 647377,
+  "features": {
+    "input": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "output": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "instruction": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 17330722,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 13343930,
+      "num_examples": 82161,
+      "dataset_name": "fingpt-headline"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 3339415,
+      "num_examples": 20547,
+      "dataset_name": "fingpt-headline"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
